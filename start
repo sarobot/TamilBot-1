@@ -6,7 +6,7 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "TamilBotOld" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0lWRVRSSS9UYW1pbEJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3RhbWlsYm90cy90YW1pbHVzZXJib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $UPSTREAM_REPO == "TamilBotNew" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0ltU2FyYXZhbmFrcmlzaC9UYW1pbEJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
